@@ -1,6 +1,6 @@
 # embedfs-web-go
 
-Just an EmbedFS example serving a static webpage.
+Example of running a file server using //go:embed.
 
 ## Changing the path
 
