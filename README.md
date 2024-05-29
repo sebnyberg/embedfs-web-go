@@ -11,7 +11,6 @@ variable, and the `//go:embed` directive:
 --- main.go     2024-05-29 19:06:09
 +++ main2.go    2024-05-29 19:25:09
 @@ -15,9 +15,9 @@
- // Note: updates require a corresponding change to the go:embed directive below
 -const path = "static"
 +const path = "path/to/dir"
 
