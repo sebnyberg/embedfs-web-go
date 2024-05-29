@@ -1,7 +1,7 @@
 FROM cgr.dev/chainguard/go AS builder
 
 COPY . /app
-RUN cd /app && go build -o fileserver .
+RUN cd /app && go build -ldflags "-s -w" -o fileserver .
 
 FROM cgr.dev/chainguard/glibc-dynamic
 
